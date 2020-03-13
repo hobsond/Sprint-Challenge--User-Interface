@@ -1,0 +1,20 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+    semantic html is the back bone of the website it defines sections and content 
+
+Name two big differences between display: block; and display: inline;.
+    block will take up the entire width of the line while an inline only takes the space needed
+
+What are the 4 areas of the box model?
+    borders
+    marigin
+    padding
+    content
+
+
+While using flexbox, what axis does the following property work on: align-items: center?
+    the y axis
+
+Explain why git is valuable to a team of developers.
+git is valuable for a team of developers because they can work in unison on a project 
+and also creating diffrent virsions and logging updates.
+

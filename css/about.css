@@ -66,6 +66,9 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+img{
+    object-fit: contain;
+}
 
 .container {
     width: 60%;
@@ -108,89 +111,80 @@ nav{
     width: 97%;
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 .top-content .text-container {
-    width: 48%;
+    width: 98%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    border: none;
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+   display: flex;
+flex-wrap: wrap;
+    justify-content: space-between;
+align-content: space-between;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
+.middle-content div{
+    width: 47%;
+   
+  
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#box1{
-    background:teal;
-}
-#box2{
-    background:gold;
+    
 }
 
-#box3{
-    background:cadetblue;
+.middle-content div div{
+    width: 100%;
+    
 }
-#box4{
-    background:coral;
+.text-container{
+    border-bottom: dotted gray 2px;
+    width: 95%;
 }
-#box5{
-    background:crimson;
-}#box6{
-    background:forestgreen;
+.text-container p, .text-container button, .text-container h2{
+    
+    margin: 3% 0;
+    
 }
-#box7{
-    background:darkorchid;
-}
-#box8{
-    background:hotpink;
-}
-#box9{
-    background:indigo;
-}
-#box10{
-    background:dodgerblue;
+button{
+    padding: 2% 6%;
+    background-color: white;
+    border:solid 3px black;
+    font-size: 1rem;
+   
+    border-radius: 10%;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     width: 100%;
