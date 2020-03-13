@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +70,11 @@ p {
 .container {
     width: 60%;
     margin: 0 auto;
+    background-color: white;
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 nav{
     display: flex;
