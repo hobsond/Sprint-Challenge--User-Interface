@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 nav{
@@ -90,13 +90,7 @@ nav{
     color: #000;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
+
 .jumbo-img{
     display: flex;
     justify-content: flex-start;
@@ -104,7 +98,16 @@ nav{
 }
 
 .jumbo-img img{
+    object-fit: contain;
     width: 97%;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 .top-content .text-container {
     width: 48%;
