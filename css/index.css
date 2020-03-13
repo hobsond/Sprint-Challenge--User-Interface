@@ -70,6 +70,25 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav{
+    display: flex;
+    align-items: baseline;
+    
+    justify-content:flex-start;
+}
+.nav-item1{
+    width: 20%;
+}
+.nav-item2{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item2 a {
+    text-decoration: none;
+    color: #000;
+}
 
 .top-content {
     display: flex;
@@ -78,7 +97,15 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.jumbo-img{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5% auto;
+}
 
+.jumbo-img img{
+    width: 97%;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
